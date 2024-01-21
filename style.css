@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+*{
+    margin:0;
+    padding:0;
+}
+
+@font-face {
+    font-family: 'font1';
+    src: url(assets/fonts/Figtree-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'font2';
+    src: url(assets/fonts/Figtree-VariableFont_wght.ttf);
+}
+:root{
+    --cor1:rgb(255, 208, 0);
+    --cor2:rgba(255, 238, 0, 0.993);
+    --cor3:yellow;
+    --cor4:rgba(155, 154, 154, 0.74);
+
+} /*resumo de cores*/
+
+
+body{
+    background-color: var(--cor2);
+    }
+    
+header{
+    height: 550px;
+    width: 350px;
+    margin: auto;
+    margin-top: 40px;
+    padding:20px;
+    border: 1px solid black;
+    border-radius: 5%;
+    box-shadow: 5px 5px 2px 5px black;
+    background-color: white;
+    
+    }
+    
+header > img {
+    border-radius: 4%;
+    } /*imagem*/
+    
+
+main > .aprendizado{
+    text-align: center;
+    height: 20px ;
+    width: 100px;
+    margin-top: 15px;
+    font-family:'font2';
+    font-size:15px;
+    background-color: var(--cor2);
+    color:black;
+    border-radius: 5% ;
+    } 
+.data{
+    color: var(--cor4)
+}
+    
+main > h1{
+     font-family: 'font1';
+     padding-top: 15px;
+    }
+
+main > .explica{
+   color: var(--cor4);
+}
+    
+main > p{
+     font-family: 'font1';
+     font-size: smaller;
+    }
+    
+main > .data{
+    margin-top: 15px;
+    }
+    
+main > .explica {
+     margin-top: 15px;
+     margin-bottom: 40px;
+    }
+    
+.greg{
+    font-size: large;
+     font-family: 'font1';
+    }
+    
+.footer{
+    margin-top: 10px;
+    margin-bottom: 13px;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+
+.footer > a {
+    text-decoration: underline;
+    color: black;
+    font-style: italic;
+    font: bolder;
+}
+
+.footer > a:hover{
+    background-color: white;
+    color: black;
+    
+}

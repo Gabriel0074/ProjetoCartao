@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+/*mobile*/
+
+
+/*Pequeas telas: até 600px
+Celular: de 600px até 768px
+Tablet:768px até 992px
+Desktop: 992px até até 1200px
+Grandes telas: acima de 1200px
+*/
+
+@media screen and (max-width:320px) and (min-width:586){
+    
+}
+
+@font-face {
+    font-family: 'font1';
+    src: url(assets/fonts/Figtree-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'font2';
+    src: url(assets/fonts/Figtree-VariableFont_wght.ttf);
+}
+:root{
+    --cor1:rgb(255, 208, 0);
+    --cor2:rgba(255, 238, 0, 0.993);
+    --cor3:yellow;
+
+}
+
+*{
+    margin:0;
+    padding:0;
+}
+
+@media screen and (min-width:992px) and (max-width: 1200px) {
+    
+}
+
+body{
+    background-color: var(--cor2);
+}
+
+header{
+    height: 550px;
+    width: 350px;
+    margin: auto;
+    margin-top: 40px;
+    padding:20px;
+    border: 1px solid black;
+    border-radius: 5%;
+    box-shadow: 5px 5px 2px 5px black;
+    background-color: white;
+
+}
+
+header > img {
+    border-radius: 4%;
+}
+
+main > .aprendizado{
+    text-align: center;
+    height: 20px ;
+    width: 100px;
+    margin-top: 15px;
+    font-family:'font2';
+    font-size:15px;
+    background-color: var(--cor2)
+}
+
+main > h1{
+    font-family: 'font1';
+    padding-top: 15px;
+}
+
+main > p{
+    font-family: 'font1';
+    font-size: smaller;
+}
+
+main > .data{
+    margin-top: 15px;
+}
+
+main > .explica {
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+
+.greg{
+    font-size: large;
+    font-family: 'font1';
+}
+
+
+.greg > strong {
+    position: absolute;
+    left: 180px;
+    bottom: -6px;
+    margin-right: 20px;
+}
